@@ -1,0 +1,335 @@
+body{
+    background-color: #f1f3f6;
+    padding-top:56px;
+}
+.search-container .input-group input[type=text]{
+    width:500px;
+}
+
+.search-container .input-group input[type=text]:hover{
+    border:none;
+}
+.input-group-btn button{
+    background:#fcbb6a;
+    border-radius:2%;
+    border-bottom-right-radius: 2px;
+} 
+
+.input-group-btn button:hover{
+    background:#d38d37;
+
+} 
+
+.navbar-nav a{
+    color:#D3D3D3; 
+    text-decoration:none;
+    position: relative;
+    padding-right:20px;
+    font-weight: 500;
+}
+
+.navbar-nav a:hover{
+    color:#ffffff; 
+    text-decoration:none;
+}
+
+.navbar-nav .dropdown-menu a{
+    color:rgb(75, 73, 73);
+}
+
+
+
+
+body {
+    padding-top:56px;
+  }
+
+.modal-body button{
+      position:relative;
+      left:100px;
+      width:50%;
+  }
+#category-container-parent{
+     box-shadow: 0 1px 8px 0 rgba(0,0,0,.3);
+}
+#category-container .row .btn-link{
+    text-decoration:none;
+    color:black;
+    font-weight:500;
+}
+
+#category-container .row .btn-link:hover{
+    text-decoration:none;
+    color:black;
+}
+
+@media (min-width: 768px) {
+   .carousel-caption p {
+      margin-bottom: 20px;
+      font-size: 21px;
+      line-height: 1.4;
+    }
+  }
+.main-content{
+    position: relative;
+    margin-top:10px;
+    min-width: 978px;
+    max-width: 1680px;
+}
+.main-content .navigator{
+    position: relative;
+    float:left;
+    left:10px;
+    box-sizing: border-box;
+    width:300px;
+    height:800px;
+    background:#fff;
+  /*  border:1px solid black;*/
+    box-shadow: 0 1px 8px 0 rgba(0,0,0,.5);
+
+}
+
+.main-content .details-container{
+    float:left;
+    position: relative;
+    box-sizing: border-box;
+    left:20px;
+    min-height:800px;
+    height:auto;
+    width:78.5%;
+    padding:20px;
+
+  /*   border:1px solid black;*/
+  box-shadow: 0 1px 8px 0 rgba(0,0,0,.3);
+    background-color:#fff;
+}
+
+
+#list1 .row{
+   
+    background-color: #fff;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.08);
+}
+
+#list1{
+    width: 100%;
+    margin-top:11px;
+    font-family:sans-serif;
+    letter-spacing: 1px;
+    padding:10px;
+    position: relative;
+}
+
+#list1 .row{
+    padding-top:10px;
+}
+#list1 img{
+    width:70%;
+    height:220px;
+    transition: transform .2s;
+    margin-bottom:10px;
+}
+#list1 .product-bottom h3{
+    font-size:20px;
+    font-weight: bold;
+}
+#list1 .product-bottom h5{
+    font-size:15px;
+}
+#list1 .product-bottom .fa-star,.fa-star-half-alt{
+    font-size:10px;
+   color:#fcbb6a;
+}
+#list1 img:hover{
+     transform: scale(1.1); 
+     box-shadow: 0px 2px 4px 2px rgba(0,0,0,0.08);
+}
+/*
+#list1 .overlay{
+    display:block;
+    opacity:0;
+    position: absolute;
+    top:10%;
+    margin-left: 0;
+    width: 70px;
+}
+#list1 .product-top:hover .overlay{
+    opacity: 1;
+    margin-left:5%;
+    transition: 0.5s;
+}
+
+
+#list1 .overlay .fa-heart{
+    cursor: pointer;
+    background-color:white;
+    color:grey;
+    height:35px;
+    width:35px;
+    font-size:20px;
+    padding:7px;
+    margin:5%;
+    margin-bottom: 5%;
+}
+*/
+#list1 .overlay .fa-shopping-cart{
+    cursor: pointer;
+    background-color:#fff;
+    color:#000;
+    height:35px;
+    width:35px;
+    font-size:20px;
+    padding:7px;
+    margin:5%;
+    margin-bottom: 5%;
+}
+
+#list1 .overlay .btn-secondary{
+    background: transparent !important;
+    border:none;
+    box-shadow: none !important;
+}
+
+.main-content .navigator .fnav{
+    box-sizing: border-box;
+    padding:20px;
+    padding-bottom:10px;
+    border-bottom: 1.5px solid #f0f0f0;
+}
+.main-content .navigator .fnav span,
+.main-content .navigator .fnav .filters .price span,
+{
+    font-size:18px;
+    letter-spacing: .3px;
+    font-weight:500;
+    font-family: Roboto,Arial,sans-serif;
+}
+
+.main-content .navigator .filters .price{
+    padding:20px;
+    overflow:auto;
+    border-bottom: 1.5px solid #f0f0f0;
+}
+
+.main-content .navigator .filters .price .slidecontainer {
+  width: 100%;
+}
+
+.main-content .navigator .filters .price .slider1,
+.main-content .navigator .filters .price .slider2{
+  -webkit-appearance: none;
+  width: 100%;
+  height: 12px;
+  border-radius:8px;
+  background:#2874f0;
+  outline: none;
+  -webkit-transition: .1s;
+  transition: opacity .1s;
+}
+
+.main-content .navigator .filters .price .slider1:hover {
+  opacity: 1;
+}
+.main-content .navigator .filters .price .slider2:hover{
+     opacity: 1;
+}
+.main-content .navigator .filters .price .slider1::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  background: #f1f3f6;
+  border:2px solid #f0f0f0;
+  cursor: pointer;
+}
+.main-content .navigator .filters .price .slider2::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  background: #f1f3f6;
+  border:2px solid #f0f0f0;
+  cursor: pointer;
+}
+.main-content .navigator .filters .price .slider1::-moz-range-thumb {
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  background: #4CAF50;
+  border:2px solid #f0f0f0;
+  cursor: pointer;
+}
+
+.main-content .navigator .filters .price .slider2::-moz-range-thumb {
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  background: #4CAF50;
+  border:2px solid #f0f0f0;
+  cursor: pointer;
+}
+
+.main-content .navigator .filters .price  .min-value{
+    display:inline;
+    float:left;
+}
+.main-content .navigator .filters .price .max-value{
+    display:inline;
+    float:right;
+}
+
+.main-content .navigator .filters .price select{
+    width:100px;
+}
+
+.main-content .navigator .filters .custom_rating{
+    padding:20px;
+    padding-top:10px;
+    border-bottom: 1.5px solid #f0f0f0;
+}
+
+.main-content .navigator .filters input[type="submit"]{
+    background-color: dodgerblue;
+    width:100px;
+    margin-top:10px;
+    margin-left:80px;
+    height:40px;
+    color:white;
+    border-radius:5px;
+    border:none;
+}
+
+.main-content .navigator .filters input[type="submit"]:hover{
+     background-color: rgb(0, 93, 187);
+     cursor: pointer;
+}
+
+.like-btn {
+  position: absolute;
+  top: 9px;
+  left: 15px;
+  display: inline-block;
+  background: url('twitter-heart.png');
+  width: 60px;
+  height: 60px;
+  background-size: 2900%;
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+
+.is-active {
+  animation-name: animate;
+  animation-duration: .8s;
+  animation-iteration-count: 1;
+  animation-timing-function: steps(28);
+  animation-fill-mode: forwards;
+}
+
+@keyframes animate {
+  0%   { background-position: left;  }
+  50%  { background-position: right; }
+  100% { background-position: right; }
+}
+

@@ -1,0 +1,266 @@
+body{
+    background-color: #f1f3f6;
+}
+.search-container .input-group input[type=text]{
+    width:500px;
+}
+
+.search-container .input-group input[type=text]:hover{
+    border:none;
+}
+.input-group-btn button{
+    background:#fcbb6a;
+    border-radius:2%;
+    border-bottom-right-radius: 2px;
+} 
+
+.input-group-btn button:hover{
+    background:#d38d37;
+
+} 
+
+.navbar-nav a{
+    color:#D3D3D3; 
+    text-decoration:none;
+    position: relative;
+    padding-right:20px;
+    font-weight: 500;
+}
+
+.navbar-nav a:hover{
+    color:#ffffff; 
+    text-decoration:none;
+}
+
+.navbar-nav .dropdown-menu a{
+    color:rgb(75, 73, 73);
+}
+
+
+
+body {
+    padding-top:56px;
+  }
+
+.modal-body button{
+      position:relative;
+      left:100px;
+      width:50%;
+  }
+
+#category-container .row .btn-link{
+    text-decoration:none;
+    color:black;
+    font-weight:500;
+}
+
+#category-container .row .btn-link:hover{
+    text-decoration:none;
+    color:black;
+}
+
+
+
+.carousel{
+    height: 320px;
+  }
+
+.carousel-caption{
+    z-index: 10; 
+  }
+
+.carousel .carousel-item{
+    height: 320px;
+    background-color: #777;
+  }
+  
+  .carousel-inner .carousel-item img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    height:320px;
+  }
+
+  @media (min-width: 768px) {
+   .carousel-caption p {
+      margin-bottom: 20px;
+      font-size: 21px;
+      line-height: 1.4;
+    }
+  }
+
+  
+#list1 .row{
+    border-top:1px solid #eaeaea;
+    background-color: #fff;
+    border-radius: 2px;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.08);
+    
+}
+
+#list1{
+    width: 100%;
+    margin-top:11px;
+    font-family:sans-serif;
+    letter-spacing: 1px;
+    padding:10px;
+    position: relative;
+}
+#list1 h2{
+    background: #0062cc;
+    color:#fff;
+    width:220px;
+    font-size:24px;
+    padding:5px;
+    height:40px;
+    display:block;
+}
+
+#list1 h2::after{
+    content:'';
+    border-top: 40px solid #0062cc;
+    border-right:40px solid transparent;
+    position: absolute;
+    left:230px;
+    top:10px;
+}
+
+
+
+#list1 .row{
+    padding-top:10px;
+}
+#list1 img{
+    width:100%;
+    height:250px;
+    transition: transform .2s;
+    margin-bottom:10px;;
+}
+#list1 .product-bottom h3{
+    font-size:20px;
+    font-weight: bold;
+}
+#list1 .product-bottom h5{
+    font-size:15px;
+}
+#list1 .product-bottom .fa{
+    font-size:10px;
+   color:#fcbb6a;
+}
+#list1 img:hover{
+     transform: scale(1.1); 
+}
+#list1 .overlay{
+    display:block;
+    opacity:0;
+    position: absolute;
+    top:10%;
+    margin-left: 0;
+    width: 70px;
+}
+#list1 .product-top:hover .overlay{
+    opacity: 1;
+    margin-left:5%;
+    transition: 0.5s;
+}
+#list1 .overlay .fa,.far{
+    cursor: pointer;
+    background-color:#fff;
+    color:#000;
+    height:35px;
+    width:35px;
+    font-size:20px;
+    padding:7px;
+    margin:5%;
+    margin-bottom: 5%;
+}
+#list1 .overlay .btn-secondary{
+    background: transparent !important;
+    border:none;
+    box-shadow: none !important;
+}
+
+footer a{
+    color:white;
+    text-decoration:none;
+}
+
+footer a:hover{
+    color:white;
+    text-decoration:none;
+}
+
+footer hr{
+    background:#fcbb6a;
+}
+
+ #snackbar {
+            visibility: hidden;
+            min-width: 250px;
+            margin-left: -125px;
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            border-radius: 2px;
+            padding: 16px;
+            position: fixed;
+            z-index: 1;
+            left: 50%;
+            bottom: 30px;
+            font-size: 17px;
+        }
+
+        #snackbar.show {
+            visibility: visible;
+            -webkit-animation: fadein 0.5s, fadeout 0.5s 2.5s;
+            animation: fadein 0.5s, fadeout 0.5s 2.5s;
+        }
+
+        @-webkit-keyframes fadein {
+            from {
+                bottom: 0;
+                opacity: 0;
+            }
+
+            to {
+                bottom: 30px;
+                opacity: 1;
+            }
+        }
+
+        @keyframes fadein {
+            from {
+                bottom: 0;
+                opacity: 0;
+            }
+
+            to {
+                bottom: 30px;
+                opacity: 1;
+            }
+        }
+
+        @-webkit-keyframes fadeout {
+            from {
+                bottom: 30px;
+                opacity: 1;
+            }
+
+            to {
+                bottom: 0;
+                opacity: 0;
+            }
+        }
+
+        @keyframes fadeout {
+            from {
+                bottom: 30px;
+                opacity: 1;
+            }
+
+            to {
+                bottom: 0;
+                opacity: 0;
+            }
+        }

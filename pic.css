@@ -1,0 +1,73 @@
+#list1{
+    width: 100%;
+    margin-top:80px;
+    font-family:sans-serif;
+    letter-spacing: 1px;
+}
+#list1 h2{
+    background: #0062cc;
+    color:#fff;
+    width:200px;
+    font-size:24px;
+    padding:5px;
+    height:40px;
+}
+
+#list1 h2::after{
+    content:'';
+    border-top: 40px solid #0062cc;
+    border-right:40px solid transparent;
+    position: relative;
+    left:48px;
+    top:34px;
+}
+
+#list1 .row{
+    padding-top:10px;
+}
+#list1 img{
+    width:100%;
+    height:250px;
+}
+#list1 .product-bottom h3{
+    font-size:20px;
+    font-weight: bold;
+}
+#list1 .product-bottom h5{
+    font-size:15px;
+    padding:10px;
+}
+#list1 .product-bottom .fa,.fas{
+    font-size:10px;
+    color:#28a745;
+}
+#list1 .overlay{
+    display:block;
+    opacity:0;
+    position: absolute;
+    top:10%;
+    margin-left: 0;
+    width: 70px;
+}
+#list1 .product-top:hover .overlay{
+    opacity: 1;
+    margin-left:5%;
+    transition: 0.5s;
+}
+#list1 .overlay .fa,.far{
+    cursor: pointer;
+    background-color:#fff;
+    color:#000;
+    height:35px;
+    width:35px;
+    font-size:20px;
+    padding:7px;
+    margin:5%;
+    margin-bottom: 5%;
+}
+
+#list1 .overlay .btn-secondary{
+    background: transparent !important;
+    border:none;
+    box-shadow: none !important;
+}

@@ -1,0 +1,279 @@
+body{
+    background-color: #f1f3f6;
+    padding-top:56px;
+}
+.search-container .input-group input[type=text]{
+    width:500px;
+}
+
+.search-container .input-group input[type=text]:hover{
+    border:none;
+}
+.input-group-btn button{
+    background:#fcbb6a;
+    border-radius:2%;
+    border-bottom-right-radius: 2px;
+} 
+
+.input-group-btn button:hover{
+    background:#d38d37;
+
+} 
+
+.navbar-nav a{
+    color:#D3D3D3; 
+    text-decoration:none;
+    position: relative;
+    padding-right:20px;
+    font-weight: 500;
+}
+
+.navbar-nav a:hover{
+    color:#ffffff; 
+    text-decoration:none;
+}
+
+.navbar-nav .dropdown-menu a{
+    color:rgb(75, 73, 73);
+}
+
+
+#category-container .row{
+    padding-top:12px;
+    padding-bottom:5px;
+    border:none;
+  }
+
+
+#category-container .row .btn-link{
+    text-decoration:none;
+    color:black;
+    font-weight:500;
+}
+
+#category-container .row .btn-link:hover{
+    text-decoration:none;
+    color:black;
+}
+
+
+#category-container-parent{
+
+    position: relative;
+    bottom:8px;
+}
+
+.main-content{
+    position: relative;
+
+}
+
+.main-content .navigator{
+    position:absolute;
+    float:left;
+    left:10px;
+    width:300px;
+    height:1100px;
+    background-color:#343a40;
+}
+
+.main-content .details-container{
+    float:left;
+    position:absolute;
+    left:320px;
+    min-height:1100px;
+    height:auto;
+    width:78.5%;
+    background-color:#343a40;
+}
+
+.navigator{
+    color:white;
+    padding-top:10px;
+    padding-left:5px;
+    padding-right:5px;
+}
+
+.navigator .user_pic{
+    display:block;
+    width: 100%;
+    padding-left:8px;
+    padding-bottom:10px;
+  
+}
+.main-content .navigator .specify{
+    padding-top:12px;
+    padding-bottom:12px;
+    width:100%;
+    padding-left:10px;
+    border-top: 1px solid #f0f0f0;
+    display:flex;
+}
+.main-content .navigator .specify-content:hover{
+
+      color:white;
+}
+.main-content .navigator .specify .img-title{
+    padding-left:10px;
+    padding-top:3px;
+}
+.main-content .navigator a:hover{
+    text-decoration:none;
+}
+.main-content .navigator .specify-content{
+    padding-top:9px;
+    padding-bottom:9px;
+    width:100%;
+    padding-left:40px;
+    color:white;
+}
+.main-content .navigator .specify-container{
+    padding-bottom:5px;
+}
+
+
+.main-content .details-container .m_add{
+    padding:20px;
+    color:white;
+}
+
+
+.main-content .details-container .m_add .add_content .new_add{
+        color:dodgerblue;
+}
+
+#myreg{
+    display: none;
+}
+.main-content .details-container .m_add .style-box{
+   margin-bottom:30px;
+}
+
+.main-content .details-container .m_add .style-box .input-box{
+   display:inline;
+   margin-bottom:10px;
+}
+
+.main-content .details-container .m_add .style-box .input-box input{
+   font-family: Roboto,Arial,sans-serif;
+   margin-right:40px;
+   padding:10px 0;
+   width:300px;
+   border:none;
+   height:50px;
+   border-radius:2px;
+ /*  outline:none;*/
+   color:black;
+   padding: 20px 16px 0 8px;
+/*   background:transparent;*/
+   font-size:16px;
+}
+
+.main-content .details-container .m_add .input-box #tx{
+    height:60px;
+    width:644px;
+}
+.main-content .details-container .m_add .style-box .input-box{
+   position:relative;
+}
+
+.main-content .details-container .m_add .style-box .input-box label{
+    position:absolute;
+    top:0;
+    left:0;
+    padding:0px 3px;
+    color: #878787;
+    font-size:16px;
+    pointer-events:none;
+    transition:.2s;
+}
+.main-content .details-container .m_add .style-box .input-box input:focus ~ label,
+.main-content .details-container .m_add .style-box .input-box input:valid ~ label{
+   top:-20px;
+   left:0px;
+   color:dodgerblue;
+   font-size:14px;
+}
+
+.main-content .details-container .m_add .add_content .form-content input[type="submit"]{
+    background-color: dodgerblue;
+    width:300px;
+    margin-top:20px;
+    height:40px;
+    color:white;
+    border-radius:5px;
+    border:none;
+    display:inline-block;
+}
+
+.main-content .details-container .m_add .add_content .form-content a{
+    margin-left:100px;
+    font-size:16px;
+    color:dodgerblue;
+    display:inline-block;
+    text-decoration:none;
+}
+
+.main-content .details-container .m_add .add_content .form-content a:hover{
+   text-decoration:none;
+   font-size:18px;
+}
+
+.main-content .details-container .m_add .add_content .form-content input[type="submit"]:hover{
+     background-color: rgb(0, 93, 187);
+     cursor: pointer;
+}
+
+.main-content .details-container .m_add .add_content{
+    border:1px solid white;
+    padding:20px;
+    width:1000px;
+}
+
+.main-content .details-container .m_add .my-address .add-content{
+    border:1px solid white;
+    padding:20px;
+    width:1000px;
+}
+
+.main-content .details-container .m_add .my-address .add-content button{
+    border:none;
+    color:blue;
+    border-radius:2px;
+}
+
+
+.main-content .details-container .m_add .my-address .add-content .dropdown {
+  float:right;
+  position: relative;
+  margin-top:0px;
+  display: inline-block;
+}
+
+.main-content .details-container .m_add .my-address .add-content .dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 120px;
+  overflow: auto;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.main-content .details-container .m_add .my-address .add-content .dropdown-content a {
+  color: black;
+  padding:5px 12px;
+  text-decoration: none;
+  display: block;
+}
+
+.main-content .details-container .m_add .my-address .add-content .dropdown-content a:hover {
+    background-color: #f1f1f1;
+    color:dodgerblue;
+}
+
+.main-content .details-container .m_add .my-address .add-content .show {display:block;}
+.main-content .details-container .m_add .my-address .add-content .dropdown .test:after {
+  content: '\2807';
+  font-size: 24px;
+  }
+

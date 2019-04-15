@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Home Page</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1,
+      shrink-to-fit=no">
+    <link rel="stylesheet" href="cart.css">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+
+      <script src="https://code.jquery.com/jquery-2.2.4.js" charset="utf-8"></script>
+</head>
+<body>
+	<nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+        <a class="navbar-brand" href="#" style="font-weight:bold;font-family:cursive">Aaaly</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <div class="search-container">
+                <form class="form-inline mt-2 mt-md-0">
+                    <div class="input-group">
+                        <input type="text" class="form-control" placeholder="Search" name="search" />
+                        <div class="input-group-btn">
+                            <button class="btn btn-default" type="submit">
+                                <i class="fas fa-search"></i>
+                            </button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <ul class="nav navbar-nav ml-auto">
+
+                <li class="nav-item dropdown" style="margin-right:150px">
+                    <a href="#" class="dropdown-toggle" id="dropdownhead" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                       Hello
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                        <a class="dropdown-item" href="Profile.php">Profile</a>
+                        <a class="dropdown-item" href="#">Another action</a>
+                        <form method="post" action="Home-logged.php">
+                            <input class="dropdown-item" type="submit" value="Logout" name="logout">
+                        </form>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="maincontent">
+    	<div class="cart-container">
+    		<div class="cart-head">
+    			<span style="font-size:18px">MY CART(Num)</span>
+    		</div>
+    		<div class="cart-item-container">
+    			<div class="cart-img">	
+    				<div class="ci">
+                        <img src="Images/mob11.jpg" width="50%" height="100%">            
+                    </div>
+    				<div class="add">
+                        <div class="quantity">
+                            <button  class="minus-btn" type="button" name="button">-</button>
+                            <input type="text" name="name" value="1" disabled>
+                            <button class="plus-btn" type="button" name="button">+</button>
+                        </div>            
+                    </div>
+    			</div>
+    			<div class="cart-desc">
+
+    			</div>
+    			<div class="cart-date">
+
+    			</div>
+    		</div>
+    	</div>
+    	<div class="total-price">
+                <div class="price" style="color:gray">PRICE DETAILS</div>
+                 <form action="#" method="post">
+                    <div class="prices" style="padding:10px;"><span>Price(num items)</span><span style="float:right">₹1400</span>
+                    </div>
+                     <div class="prices" style="padding:10px;border-bottom-style:dashed; border-bottom-color:gray"><span>Delivery Charges</span><span style="float:right">FREE</span>
+                    </div>
+                          <div class="prices" style="padding:30px 10px 30px 10px;border-bottom: 1.5px solid #f0f0f0;"><span>Amount Payable</span><span style="float:right">₹1400</span>
+                         </div>
+                         <div class="sub">
+                           <input type="submit" namr="submit" value="Proceed to checkout">
+                        </div>
+                </form>
+        </div>
+
+    </div>
+       <script type="text/javascript">
+      $('.minus-btn').on('click', function(e) {
+            e.preventDefault();
+            var $this = $(this);
+            var $input = $this.closest('div').find('input');
+            var value = parseInt($input.val());
+
+            if (value > 1) {
+                value = value - 1;
+            } else {
+                value = 0;
+            }
+
+        $input.val(value);
+
+        });
+
+        $('.plus-btn').on('click', function(e) {
+            e.preventDefault();
+            var $this = $(this);
+            var $input = $this.closest('div').find('input');
+            var value = parseInt($input.val());
+
+            if (value < 10) {
+            value = value + 1;
+            } else {
+                value =10;
+            }
+
+            $input.val(value);
+        });
+
+      $('.like-btn').on('click', function() {
+        $(this).toggleClass('is-active');
+      });
+    </script>
+
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</body>

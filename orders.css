@@ -1,0 +1,203 @@
+body{
+    background-color: #f1f3f6;
+    padding-top:56px;
+}
+.search-container .input-group input[type=text]{
+    width:500px;
+}
+
+.search-container .input-group input[type=text]:hover{
+    border:none;
+}
+.input-group-btn button{
+    background:#fcbb6a;
+    border-radius:2%;
+    border-bottom-right-radius: 2px;
+} 
+
+.input-group-btn button:hover{
+    background:#d38d37;
+
+} 
+
+.navbar-nav a{
+    color:#D3D3D3; 
+    text-decoration:none;
+    position: relative;
+    padding-right:20px;
+    font-weight: 500;
+}
+
+.navbar-nav a:hover{
+    color:#ffffff; 
+    text-decoration:none;
+}
+
+.navbar-nav .dropdown-menu a{
+    color:rgb(75, 73, 73);
+}
+
+
+#category-container .row{
+    padding-top:12px;
+    padding-bottom:5px;
+    border:none;
+  }
+
+
+#category-container .row .btn-link{
+    text-decoration:none;
+    color:black;
+    font-weight:500;
+}
+
+#category-container .row .btn-link:hover{
+    text-decoration:none;
+    color:black;
+}
+
+
+#category-container-parent{
+
+    position: relative;
+    bottom:8px;
+}
+
+.main-content{
+    position: relative;
+    height:auto;
+}
+
+.main-content .navigator{
+    position:absolute;
+    float:left;
+    left:10px;
+    width:300px;
+    min-height:1000px;
+    height:auto;
+    background-color:#343a40;
+}
+
+.main-content .details-container{
+    float:left;
+    position:absolute;
+    left:320px;
+    min-height:1000px;
+    height: auto;
+    width:78.5%;
+    background-color:#343a40;
+}
+
+.navigator{
+    color:white;
+    padding-top:10px;
+    padding-left:5px;
+    padding-right:5px;
+}
+
+.navigator .user_pic{
+    display:block;
+    width: 100%;
+    padding-left:8px;
+    padding-bottom:10px;
+  
+}
+.main-content .navigator .specify{
+    padding-top:12px;
+    padding-bottom:12px;
+    width:100%;
+    padding-left:10px;
+    border-top: 1px solid #f0f0f0;
+    display:flex;
+}
+.main-content .navigator .specify-content:hover{
+
+      color:white;
+}
+.main-content .navigator .specify .img-title{
+    padding-left:10px;
+    padding-top:3px;
+}
+.main-content .navigator a:hover{
+    text-decoration:none;
+}
+.main-content .navigator .specify-content{
+    padding-top:9px;
+    padding-bottom:9px;
+    width:100%;
+    padding-left:40px;
+    color:white;
+}
+.main-content .navigator .specify-container{
+    padding-bottom:5px;
+}
+
+.main-content .details-container .myorders{
+    padding:20px;
+}
+
+.main-content .details-container .order{
+    border:1px solid #f0f0f0;
+    margin-bottom:15px;
+}
+.main-content .details-container .order .order-header{
+    width:100%;
+    background-color: #f0f0f0;
+    height:50px;
+    padding:10px;
+    border-bottom:1px solid #f0f0f0;
+}
+
+
+.main-content .details-container .order .order-header button{
+    padding-top:3px;
+    display:block;
+    border:none;
+    outline:none;
+    width:25%;
+    text-align:center;
+    background: dodgerblue;
+    color:white;
+    text-decoration:none;
+    font-weight: 500;
+    height:90%;
+    border-radius:2px;
+    cursor:pointer;
+
+}
+.main-content .details-container .order .order-content .content{
+    display:inline;
+    width:400px;
+}
+
+.main-content .details-container .order .order-content{
+    width:100%;
+    background-color:white;
+    height:120px;
+    border-bottom:1px solid #f0f0f0;
+    display:flex;
+}
+
+
+.main-content .details-container .order .order-footer{
+    width:100%;
+    background-color:white;
+    height:40px;
+    padding:10px;
+    display:flex;
+}
+
+.main-content .details-container .order .order-content div{
+     margin-top:25px
+}
+
+.main-content .details-container .order .order-content img{
+    margin-left:40px;
+    margin-top:0px;
+}
+
+
+.main-content .details-container .order .order-footer span{
+    position:relative;
+    left:650px;
+}

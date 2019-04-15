@@ -1,0 +1,159 @@
+body{
+    background-color: #f1f3f6;
+    padding-top:56px;
+}
+.search-container .input-group input[type=text]{
+    width:500px;
+}
+
+.search-container .input-group input[type=text]:hover{
+    border:none;
+}
+.input-group-btn button{
+    background:#fcbb6a;
+    border-radius:2%;
+    border-bottom-right-radius: 2px;
+} 
+
+.input-group-btn button:hover{
+    background:#d38d37;
+
+} 
+
+.navbar-nav a{
+    color:#D3D3D3; 
+    text-decoration:none;
+    position: relative;
+    padding-right:20px;
+    font-weight: 500;
+}
+
+.navbar-nav a:hover{
+    color:#ffffff; 
+    text-decoration:none;
+}
+
+.navbar-nav .dropdown-menu a{
+    color:rgb(75, 73, 73);
+}
+
+
+#category-container .row{
+    padding-top:12px;
+    padding-bottom:5px;
+    border:none;
+  }
+
+
+#category-container .row button{
+    color:black;
+    font-size:16px;
+    text-decoration:none;
+    font-weight: 600;
+    background-color: #f1f3f6;
+    border:none;
+}
+
+#category-container .row button:hover{
+    border-style: none;
+}
+
+#category-container-parent{
+    background-color: #f1f3f6;
+    position: relative;
+    bottom:8px;
+}
+
+.main-content{
+    position: relative;
+
+}
+
+.main-content .navigator{
+    position:absolute;
+    float:left;
+    left:10px;
+    width:300px;
+    height:800px;
+    background-color:#343a40;
+}
+
+.main-content .details-container{
+    float:left;
+    position:absolute;
+    left:320px;
+    height:1000px;
+    width:78.5%;
+    background-color:#fcbb6a;
+}
+
+.navigator{
+    color:white;
+    padding-top:10px;
+    padding-left:5px;
+    padding-right:5px;
+}
+
+.navigator .user_pic{
+    display:block;
+    width: 100%;
+    padding-left:8px;
+    padding-bottom:10px;
+  
+}
+.main-content .navigator .specify{
+    padding-top:12px;
+    padding-bottom:12px;
+    width:100%;
+    padding-left:10px;
+    border-top: 1px solid #f0f0f0;
+    display:flex;
+}
+.main-content .navigator .specify-content:hover{
+
+      color:white;
+}
+.main-content .navigator .specify .img-title{
+    padding-left:10px;
+    padding-top:3px;
+}
+.main-content .navigator a:hover{
+    text-decoration:none;
+}
+.main-content .navigator .specify-content{
+    padding-top:9px;
+    padding-bottom:9px;
+    width:100%;
+    padding-left:40px;
+    color:white;
+}
+.main-content .navigator .specify-container{
+    padding-bottom:5px;
+}
+
+
+.main-content .details-container .main-con{
+    padding:20px;
+}
+.main-content .details-container input[type="text"]{
+    display: inline;
+    width:30%;
+    border:none;
+    padding-left:3px;
+    height:40px;
+}
+
+.main-content .details-container input[type="submit"]{
+    background-color: dodgerblue;
+    padding-left:3px;
+    height:40px;
+    width:8%;
+    color:white;
+    font-weight:bold;
+    border:none;
+}
+
+.main-content .details-container input[type="submit"]:hover{
+     background-color: rgb(54, 128, 202);
+     cursor: pointer;
+}
